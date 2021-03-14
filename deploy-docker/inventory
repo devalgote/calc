@@ -1,1 +1,3 @@
+[py3-hosts:vars]
+ansible_python_interpreter=/usr/bin/python3
 localhost ansible_user=devendhar
