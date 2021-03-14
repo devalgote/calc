@@ -2,9 +2,9 @@
 - name: Pull and Run docker image
   hosts: all
   tasks:
-    - name: Pull chakri53/calculator
+    - name: Pull devalgote/miniproject
       docker_image:
-        name: chakri53/calculator
+        name: devalgote/miniproject
         source: pull
 #    - name: Copy jar file to home directory
 #      copy:
