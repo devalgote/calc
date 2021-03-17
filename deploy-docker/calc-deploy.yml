@@ -4,7 +4,7 @@
   tasks:
     - name: Pull devalgote/miniproject
       docker_image:
-        name: devalgote/miniproject
+        name: devalgote/miniproject:latest
         source: pull
 #    - name: Copy jar file to home directory
 #      copy:
